@@ -1,0 +1,46 @@
+// Arithmetic Operators
+import java.io.*;
+class GFG {
+    public static void main (String[] args) { 
+        int a = 10;
+        int b = 3;
+        System.out.println("a + b = " + (a + b));
+        System.out.println("a - b = " + (a - b));
+        System.out.println("a * b = " + (a * b));
+        System.out.println("a / b = " + (a / b));
+        System.out.println("a % b = " + (a % b));
+    }
+}
+// Unary Operators
+import java.io.*;
+class GFG {
+    public static void main(String[] args)
+    {
+        int a = 10;
+        int b = 10;
+        System.out.println("Postincrement : " + (a++));
+        System.out.println("Preincrement : " + (++a));
+        System.out.println("Postdecrement : " + (b--));
+        System.out.println("Predecrement : " + (--b));
+    }
+}
+//Assignment operators 
+public class AssignmentOperatorsExample {  
+    public static void main(String[] args) {  
+        int x = 10;  
+        int y = x;  
+        System.out.println("y = " + y);  
+        x += 5;  
+        System.out.println("x += 5: " + x);  
+        x -= 3;  
+        System.out.println("x -= 3: " + x);  
+        x *= 2;  
+        System.out.println("x *= 2: " + x);  
+        x /= 4;  
+        System.out.println("x /= 4: " + x);    
+        x %= 3;  
+        System.out.println("x %= 3: " + x);    
+        x <<= 2;    
+    }  
+}  
+
